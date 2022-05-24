@@ -100,6 +100,7 @@
     <icon drawable="@drawable/camera" package="net.sourceforge.opencamera" name="Camera" />
     <icon drawable="@drawable/camera" package="org.codeaurora.qcamera3" name="Camera" />
     <icon drawable="@drawable/camera" package="org.codeaurora.snapcam" name="Camera" />
+    <icon drawable="@drawable/camera" package="org.leafos.graphenecamera" name="Camera" />
     <icon drawable="@drawable/camera" package="org.lineageos.snap" name="Camera" />
     <icon drawable="@drawable/catogram" package="org.nift4.catox" name="Catogram" />
     <icon drawable="@drawable/catogram" package="ua.itaysonlab.messenger" name="Catogram" />
