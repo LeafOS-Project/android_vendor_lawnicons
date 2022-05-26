@@ -16,11 +16,14 @@ ln -s ../../../../../../app/src/main/res/xml/grayscale_icon_map.xml .
 popd
 
 mkdir values
+pushd values
+ln -s ../../../../../../app/src/main/res/values/arrays.xml .
 echo '<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="theme_icon_size">24dp</dimen>
 </resources>
-' > values/dimens.xml
+' > dimens.xml
+popd
 
 popd
 echo "PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lawnicons/overlay" > overlay.mk
