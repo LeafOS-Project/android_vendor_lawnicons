@@ -10,6 +10,11 @@ pushd "$res_root"
 
 ln -s ../../../../../app/src/main/res/drawable .
 
+mkdir raw
+pushd raw
+ln -s ../../../../../../app/src/main/res/xml/grayscale_icon_map.xml .
+popd
+
 mkdir xml
 pushd xml
 ln -s ../../../../../../app/src/main/res/xml/grayscale_icon_map.xml .
